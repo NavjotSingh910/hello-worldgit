@@ -39,3 +39,13 @@ git branch //see how many branches are there
 git branch -d  branchname //delete branch
 
 git merge branchname
+
+//connect git hub make repo and copy link 
+ git remote add origin https://github.com/NavjotSingh910/test.git //create remote Git repository named "origin"
+ 
+ git push --set-upstream origin master 
+ git remote rm origin //delete origin
+ 
+
+
+
