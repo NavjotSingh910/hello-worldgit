@@ -64,3 +64,7 @@ git pull origin //Use pull to update our local Git
 
 //push
 git push origin
+
+//github branches
+git branch -a
+git branch -r //only for remote branches
