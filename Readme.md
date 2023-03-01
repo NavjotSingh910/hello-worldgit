@@ -35,3 +35,4 @@ git help --all //-  See all possible commands
 //branches
 git branch hello-world-images
 git branch //see how many branches are there 
+-b option on checkout 
