@@ -12,3 +12,5 @@ git add --all
 git add -A
 
 
+git commit -m "Message"
+git commit -a -m "Updated index.html with a new line without staging"
