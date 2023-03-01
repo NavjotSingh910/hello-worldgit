@@ -46,6 +46,17 @@ git merge branchname
  git push --set-upstream origin master 
  git remote rm origin //delete origin
  
+ 
+ //pull is a combination of 2 different commands:
+       fetch
+       merge
+git fetch origin
+git log origin/master
 
+git diff origin/master  //differences between our local master and origin/master
+git merge origin/master
+
+
+git pull origin //Use pull to update our local Git
 
 
