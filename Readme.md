@@ -36,3 +36,6 @@ git help --all //-  See all possible commands
 git branch hello-world-images
 git branch //see how many branches are there 
 -b option on checkout 
+git branch -d  branchname //delete branch
+
+git merge branchname
