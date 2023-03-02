@@ -27,6 +27,7 @@ git commit -a -m "Updated index.html with a new line without staging"
 
 //history of commits 
 git log
+git log --oneline
 
 //help command
 git command -help //-  See all the available options for the specific command
@@ -45,7 +46,9 @@ git merge branchname
  
  git push --set-upstream origin master 
  git remote rm origin //delete origin
- 
+ git remote rename origin upstream
+ git remote -v //all remote name
+ git remote set-url origin git@github.com:w3schools-test/hello-world.git //set new url
  
  //pull is a combination of 2 different commands:
        fetch
@@ -59,8 +62,9 @@ git merge origin/master
 
 git pull origin //Use pull to update our local Git
 //if it give you error it mean you delete origin in past so there are the 2 solution of this
-1. git pull origin master
-2.git branch --set-upstream-to=origin/BRANCH_NAME
+
+        1. git pull origin master
+        2.git branch --set-upstream-to=origin/BRANCH_NAME
 
 //push
 git push origin
@@ -100,4 +104,10 @@ git rm --cached exclude.txt //cached  means git remove it from tracking  file bu
 
 git rm exclude.txt //cached  means git remove it from tracking  file and also delete from directory 
 
+touch .gitignore
+
+ git restore index.html
+git revert 142f4f6 --no-edit
+git reset 9a9add8
+ git checkout a3e058f
 
