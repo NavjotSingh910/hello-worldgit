@@ -62,6 +62,3 @@ git pull origin //Use pull to update our local Git
 1. git pull origin master
 2.git branch --set-upstream-to=origin/BRANCH_NAME
 
-
-this is test for merge this line may change or not 
-hello now i change here in test branch also line number 66
