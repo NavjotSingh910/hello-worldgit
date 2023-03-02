@@ -72,3 +72,14 @@ git branch -r //only for remote branches
 //push branch on git hub
 
 git push origin update-readme
+
+
+
+//The GitHub flow works like this:
+
+       Create a new Branch
+       Make changes and add Commits
+       Open a Pull Request
+       Review
+       Deploy
+       Merge
