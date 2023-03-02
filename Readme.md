@@ -83,3 +83,4 @@ git push origin update-readme
        Review
        Deploy
        Merge
+Test for single file commit
