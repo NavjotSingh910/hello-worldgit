@@ -84,6 +84,20 @@ git push origin update-readme
        Deploy
        Merge
 
-       
+
 Test for single file commit
 and here we go test completed and yes we can do this also 
+
+//important commands
+
+
+git add --exclude exclude.txt //This tells Git to add all files in the current directory (.) to the staging area,except for exclude.txt
+
+git reset exclude.txt //if we add by mistake in staging area means ready for commit then  remove from it staging area but it still  
+                        tracked by git
+
+git rm --cached exclude.txt //cached  means git remove it from tracking  file but dont delete from directory 
+
+git rm exclude.txt //cached  means git remove it from tracking  file and also delete from directory 
+
+
